@@ -33,7 +33,7 @@ class CopyButton(discord.ui.Button):
     def __init__(self, result):
         super().__init__(
             label="Mobile Copy",
-            style=discord.ButtonStyle.primary
+            style=discord.ButtonStyle.secondary
         )
         self.result = result
 
