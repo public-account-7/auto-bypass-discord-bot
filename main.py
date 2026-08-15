@@ -14,7 +14,7 @@ TOKEN = os.getenv("TOKEN")
 GUILD_ID = int(os.getenv("GUILD_ID"))
 CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
 
-API_URL = "http://78.154.103.25:14187/api/bypass?url="
+API_URL = "http://78.154.103.2:10725/api/bypass?url="
 
 if not TOKEN:
     raise ValueError("Missing TOKEN in .env")
