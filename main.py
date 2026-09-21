@@ -14,7 +14,7 @@ TOKEN = os.getenv("TOKEN")
 GUILD_ID = int(os.getenv("GUILD_ID"))
 CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
 
-API_URL = "https://doitenroi.wispbyte.app/api/freebypass?url="
+API_URL = "https://doitenroi.win/api/bypass?url="
 
 if not TOKEN:
     raise ValueError("Missing TOKEN in .env")
